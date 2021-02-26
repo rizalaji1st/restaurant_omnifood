@@ -79,4 +79,17 @@ $(document).ready(function(){
     },{
         offset: '50%'
     });
+
+    /* Mobile nav */
+    $('.js--nav-icon').click(function(){
+        var nav = $('.js--main-nav');
+        var icon = $('.js--icon-menu');
+        nav.slideToggle(200);
+        if(icon.attr('name')=='menu-outline'){
+            icon.attr('name','close-outline');
+        }
+        else{
+            icon.attr('name','menu-outline');
+        }
+    });
 });

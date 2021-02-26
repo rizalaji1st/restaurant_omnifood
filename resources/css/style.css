@@ -220,6 +220,20 @@ a:hover, a:active{
     border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile navigation */
+
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon ion-icon{
+    font-size: 200%;
+    color: #fff;
+}
+
 /* sticky navigation */
 
 .sticky .logo{
